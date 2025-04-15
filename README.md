@@ -14,7 +14,7 @@
 			<img src="https://img.shields.io/static/v1?style=for-the-badge&label=Sponsor project&message=%E2%9D%A4&color=ff69b4" alt="Sponsor project"/>
 		</a>
 		<a href="https://github.com/xXxCLOTIxXx/xXxCLOTIxXx/blob/main/contacts.md">
-      		<img src="https://img.shields.io/badge/Contacts-Contacts-F79B1F?style=for-the-badge&amp;logoColor=0077b6&amp;color=0077b6" alt="Contacts"/>
+      		<img src="https://img.shields.io/badge/Контакты-Contacts-F79B1F?style=for-the-badge&amp;logoColor=0077b6&amp;color=0077b6" alt="Contacts"/>
 		</a>
 	</div>
 	<br>
