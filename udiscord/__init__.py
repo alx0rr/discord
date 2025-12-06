@@ -1,7 +1,7 @@
 """
 Unofficial library for creating user bots for Discord.  
 Allows automating actions, managing an account, and interacting with the Discord API without using an official bot.
-Author: Xsarz
+Author: alx0rr
 """
 
 from .utils.objects import *
@@ -23,8 +23,8 @@ def set_log_level(level: int):
 __title__ = 'udiscord'
 __author__ = 'Xsarz'
 __license__ = 'MIT'
-__copyright__ = 'Copyright 2025 Xsarz'
-__version__ = '1.3.7.2'
+__copyright__ = 'Copyright 2025 alx0rr'
+__version__ = '1.3.8'
 
 
 from requests import get

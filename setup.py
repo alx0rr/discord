@@ -3,17 +3,17 @@ from setuptools import setup, find_packages
 with open("README.md", "r") as file:
 	long_description = file.read()
 
-link = 'https://github.com/xXxCLOTIxXx/discord/archive/refs/heads/main.zip'
-ver = '1.3.7.2'
+link = 'https://github.com/alx0rr/discord/archive/refs/heads/main.zip'
+ver = '1.3.8'
 
 setup(
 	name = "udiscord",
 	version = ver,
-	url = "https://github.com/xXxCLOTIxXx/discord",
+	url = "https://github.com/alx0rr/discord",
 	download_url = link,
 	license = "MIT",
-	author = "Xsarz",
-	author_email = "xsarzy@gmail.com",
+	author = "alx0rr",
+	author_email = "anon.mail.al@proton.me",
 	description = "Library for creating discord bots and scripts.",
 	long_description = long_description,
 	long_description_content_type = "text/markdown",
@@ -26,7 +26,7 @@ setup(
 		"python",
 		"python3",
 		"python3.x",
-		"xsarz",
+		"alx0rr",
 		"official",
 		"sync",
 		"async",
