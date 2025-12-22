@@ -9,7 +9,7 @@ from .utils import exceptions, log, get_userId_from_token
 from .utils.logger import logging
 
 from .client import Client
-#from .async_client import AsyncClient
+from ._async import AsyncClient
 
 
 def set_log_level(level: int):
@@ -24,7 +24,7 @@ __title__ = 'udiscord'
 __author__ = 'Xsarz'
 __license__ = 'MIT'
 __copyright__ = 'Copyright 2025 alx0rr'
-__version__ = '1.3.8'
+__version__ = '1.4'
 
 
 from requests import get

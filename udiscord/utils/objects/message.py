@@ -6,6 +6,7 @@ class Message:
 		self.messageType = self.data.get("type")
 		self.content = self.data.get("content")
 		self.channelId = self.data.get("channel_id")
+		self.channelType = self.data.get("channel_type")
 		self.attachments = self.data.get("attachments", [])
 		self.embeds = self.data.get("embeds", [])
 		self.mentions = self.data.get("mentions", [])

@@ -55,7 +55,7 @@ class Client(Socket):
 
 	def __del__(self):
 		if self.token:
-			try:self.logout()
+			try:self.disconnect()
 			except: pass
 
 

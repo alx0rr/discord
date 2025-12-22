@@ -21,11 +21,8 @@ def generate_random_wave(length: int, min_value=-32768, max_value=32767):
     waveform = bytearray()
     
     for _ in range(length):
-        # Генерируем случайное значение в диапазоне от min_value до max_value
         sample = randint(min_value, max_value)
-        
-        # Добавляем значение в байтовый массив в формате 16-битного целого числа
-        waveform.extend(struct.pack('<h', sample))  # <h — маленький порядок байтов для 16-битного целого
+        waveform.extend(struct.pack('<h', sample))
         
     return waveform
 
