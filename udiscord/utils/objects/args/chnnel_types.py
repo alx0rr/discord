@@ -1,0 +1,6 @@
+
+class ChannelType:
+    SERVER_MESSAGE = 0
+    DIRECT_MESSAGE = 1
+    VOICE_CHAT_MESSAGE = 2
+    GROUP_MESSAGE = 3
